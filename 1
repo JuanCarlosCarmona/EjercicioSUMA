@@ -1,0 +1,28 @@
+package es_juancarlos.ejercicio1;
+
+import java.util.Scanner;
+
+public class EjercicioSUMA {
+
+	public static void main(String[] args) 
+	
+	{
+		int numero, numero1, resultado;
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Dame un número:");
+		numero= teclado.nextInt();		
+		
+		System.out.println("Dame otro número:");
+		numero1= teclado.nextInt();		
+		
+		teclado.close();
+		
+		resultado = numero + numero1;
+		
+		System.out.println("El resultado es: " + resultado);
+		
+	}
+
+}
